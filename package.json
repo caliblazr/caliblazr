@@ -1,0 +1,13 @@
+{
+  "name": "lifesync-ai",
+  "version": "1.0.0",
+  "description": "LifeSync AI — AI-Powered Habit Tracker & Accountability Coach",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install:all": "npm install && cd client && npm install --legacy-peer-deps && cd ../server && npm install"
+  }
+}
